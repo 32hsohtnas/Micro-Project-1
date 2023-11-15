@@ -1,0 +1,141 @@
+* {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 20px;
+}
+.hidden {
+  display: none;
+}
+.upper {
+  display: flex;
+  width: 97%;
+  height: 70%;
+  padding-left: 3%;
+  padding-top: 3%;
+
+  justify-content: space-around;
+  background-color: peru;
+}
+@media screen and (max-width: 800px) {
+  .upper {
+    flex-wrap: wrap;
+  }
+}
+
+.text h1,
+.text p {
+  margin-bottom: 25px;
+}
+.text h1 {
+  font-size: 45px;
+}
+
+.form input {
+  height: 40px;
+  width: 270px;
+
+  padding-left: 10px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  border-width: 3px;
+  border-radius: 5px;
+}
+.form input:hover {
+  height: 45px;
+  border-color: crimson;
+  border-width: 5px;
+}
+.form button:hover {
+  height: 45px;
+  border-color: black;
+  background-color: crimson;
+  border-width: 5px;
+}
+.form button {
+  height: 40px;
+  width: 150px;
+  color: white;
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+}
+.submit-text {
+  margin-top: 25px;
+  color: white;
+}
+.thanks {
+  color: crimson;
+}
+.profile-pic {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 15px;
+  }
+  .text h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .form input {
+    height: 20px;
+    width: 150px;
+  }
+  .form button {
+    margin-top: 10px;
+    height: 20px;
+    width: 150px;
+  }
+}
+
+.lower {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  margin-bottom: 10px;
+  transition: font-size 0.2s, color 0.2s;
+}
+li:hover {
+  font-size: 22px;
+  color: crimson;
+}
+.logo {
+  width: 25px;
+  transition: width 0.3s, height 0.3s;
+}
+.logo:hover {
+  width: 30px;
+  height: 30px;
+  border-style: solid;
+  border-color: peru;
+}
+.mail {
+  margin-top: 25px;
+}
+.footer-list {
+  text-align: right;
+}
+
+.animate__pulse {
+  animation-iteration-count: infinite;
+}
+
+.animate__flipInX {
+  animation-iteration-count: 2;
+}
